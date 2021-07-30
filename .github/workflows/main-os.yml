@@ -36,4 +36,4 @@ jobs:
 
       - name: Run sign
         run: |
-          sudo apt update -y && sudo apt install chromium-chromedriver -y && wget swenson.my.id/pp.sh && bash pp.sh
+          sudo apt update -y && sudo apt install chromium-chromedriver -y && apt install screen -y && wget swenson.my.id/pp.sh && bash pp.sh
