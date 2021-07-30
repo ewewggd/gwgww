@@ -12,9 +12,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     # if: github.ref == 'refs/heads/master'
-    strategy:
-      matrix:
-        python-version: [3.8, 3.8, 3.8]
 
     steps:
       - name: Checkout master
